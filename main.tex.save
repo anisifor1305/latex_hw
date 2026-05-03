@@ -1,33 +1,29 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass{article}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage[left=2.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
 
-\setlength{\parindent}{1.5cm}
-\title{\fontsize{36pt}{44pt}\selectfont\bfseries Избранные произведения}
-\author{\Huge\bfseries ДАНИИЛ ХАРМС}
+
+\title{Избранные произведения}
+\author{ДАНИИЛ ХАРМС}
 \date{}
-
 \usepackage{titlesec}
 \titleformat*{\section}{\large\bfseries\centering}
 
 \begin{document}
 \maketitle
-
 \section*{ПОБЕДА МЫШИНА}
 \input{part1.tex}
-
-\vspace{3.5ex}
-
 \begin{center}
 * * *
 \end{center}
-
 \section*{КОРАБЛИК}
 \input{part2.tex}
-
-\section*{\normalfont * * *}
+\section*{}
+\begin{center}
+* * *
+\end{center}
 \input{part3.tex}
-
 \end{document}
+
+
