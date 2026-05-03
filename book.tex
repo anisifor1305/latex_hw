@@ -1,0 +1,33 @@
+\documentclass[a4paper, 12pt, oneside]{book}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=2.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+
+\setlength{\parindent}{1.5cm}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[block]{\huge\bfseries\centering}{}{0pt}{\Huge}
+
+\title{\fontsize{36pt}{44pt}\selectfont\bfseries Избранные произведения}
+\author{\Huge\bfseries ДАНИИЛ ХАРМС}
+\date{}
+
+\begin{document}
+\maketitle
+
+\chapter*{ПОБЕДА МЫШИНА}
+\input{part1.tex}
+
+\chapter*{\fontsize{12pt}{14pt}\selectfont\normalfont * * *}
+\begin{center}
+\vspace*{-5ex}
+\large\bfseries КОРАБЛИК
+\vspace{2ex}
+\end{center}
+\input{part2.tex}
+
+\chapter*{\fontsize{12pt}{14pt}\selectfont\normalfont * * *}
+\input{part3.tex}
+
+\end{document}
